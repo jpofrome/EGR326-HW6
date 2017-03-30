@@ -220,7 +220,7 @@ public class TicTacToeGUI extends JFrame{
     public void wipeBoard(){
         for(JButton[] row : buttons){
             for(JButton each : row){
-                each.setBackground(Color.GRAY);
+                each.setBackground(Color.BLUE);
                 each.setOpaque(true);
                 each.setIcon(null);
             }
