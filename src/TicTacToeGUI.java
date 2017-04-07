@@ -31,6 +31,14 @@ public class TicTacToeGUI extends JFrame{
     Integer p2Wins = 0;
     Integer p2Lossess = 0;
 
+/*
+     why is this not green
+*/
+
+    //AI Player
+    JLabel p3;
+
+
     //Button Menu variables
     JButton newGameButton;
     JButton resetButton;
